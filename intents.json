@@ -1,0 +1,293 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "I hope this was helpful to you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "In which format result do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We have result in visual as well as in document format.",
+        "I can help you with all the food products which has label on it",
+        "We do not sell anything , we just provide the service."
+      ]
+    },
+    
+    
+    {
+      "tag": "food_safety_intro",
+      "patterns": [
+        "Tell me about food safety",
+        "How can I ensure food safety?",
+        "Tips for safe food handling"
+      ],
+      "responses": [
+        "Food safety is crucial! Always wash your hands before handling food.",
+        "To ensure food safety, cook meat thoroughly and refrigerate leftovers promptly.",
+        "Practice good hygiene in the kitchen to prevent foodborne illnesses."
+      ]
+    },
+    {
+      "tag": "food_scanning",
+      "patterns": [
+        "How can I scan a food product?",
+        "Tell me about food scanning",
+        "Scan food for safety"
+      ],
+      "responses": [
+        "Sure! To scan a food product, please provide the product name and its brand name.",
+        "I can help you with food scanning. Please provide the product name and brand name."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Product name is [product_name]",
+        "Brand name is [brand_name]",
+        "I want to scan [product_name] by [brand_name]"
+      ],
+      "responses": [
+        "Great! Thank you for providing the product name as [product_name] and brand name as [brand_name]."
+      ]
+    },
+    {
+      "tag": "ask_photo",
+      "patterns": [
+        "Can you upload a photo of the ingredients?",
+        "Please attach a photo of the ingredients",
+        "Upload a picture of the product ingredients"
+      ],
+      "responses": [
+        "Sure! To proceed, please upload a photo of the ingredients."
+      ]
+    },
+    {
+      "tag": "photo_uploaded",
+      "patterns": [
+        "I have uploaded the photo",
+        "Photo of ingredients is attached",
+        "Uploaded the picture"
+      ],
+      "responses": [
+        "Great! The photo of the ingredients has been received and stored."
+      ]
+    },
+    {
+      "tag": "result_format",
+      "patterns": [
+        "How would you like to see the results?",
+        "Visual representation or detailed report?",
+        "Choose result format"
+      ],
+      "responses": [
+        "Excellent! How would you like to see the results? Visual representation or a detailed report?"
+      ]
+    },
+    {
+      "tag": "thanks_food_safety",
+      "patterns": [
+        "Thanks for the food safety information",
+        "Appreciate the help on food safety",
+        "Thank you for the food scanning assistance"
+      ],
+      "responses": [
+        "You're welcome! If you have more questions or need further assistance, feel free to ask."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "food_facts",
+      "patterns": [
+        "Tell me a food fact",
+        "Give me an interesting food fact",
+        "Share some food knowledge"
+      ],
+      "responses": [
+        "Certainly! Did you know that tomatoes are technically fruits, but the U.S. Supreme Court classified them as vegetables in 1893 for tariff purposes?",
+        "Here's a food fact: The world's largest pizza was made in 2012 in Rome. It measured 1261.65 square meters (13,570.28 square feet)!",
+        "Did you know that avocados are berries and are also known as 'alligator pears'? They are rich in healthy monounsaturated fats.",
+        "The spice saffron is more expensive than gold by weight! It takes a vast number of saffron flowers to produce a small amount of the spice.",
+        "An average ear of corn has an even number of rows, usually 16. Each row typically has 800 kernels arranged in 16 rows.",
+        "Certainly! Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+        "Here's a food fact for you: Bananas are berries, but strawberries aren't! In botanical terms, bananas qualify as berries, while strawberries are considered aggregate fruits.",
+        "Did you know that chocolate was once used as currency? The Aztecs used cocoa beans as a form of currency during the height of their civilization."
+      ]
+    },
+    {
+      "tag": "safety_guidelines",
+      "patterns": [
+        "What safety guidelines should I follow while scanning food products?",
+        "Can you provide tips for ensuring food safety at home?",
+        "Tell me about common safety practices in the food industry."
+      ],
+      "responses": [
+        "Ensure proper hygiene while handling and preparing food.",
+        "Always check for expiration dates on food products.",
+        "Wash fruits and vegetables thoroughly before consumption."
+      ]
+    },
+    {
+      "tag": "ingredient_information",
+      "patterns": [
+        "How can I identify harmful ingredients in a product?",
+        "Tell me about common allergens found in food.",
+        "What are the key things to check for in ingredient lists?"
+      ],
+      "responses": [
+        "Look out for additives and preservatives in ingredient lists.",
+        "Common allergens include nuts, dairy, and gluten.",
+        "Check for artificial colors and flavors in the ingredients."
+      ]
+    },
+    {
+      "tag": "storage_recommendations",
+      "patterns": [
+        "How should I properly store different types of food?",
+        "What are the best practices for preserving the freshness of food products?",
+        "Tell me about the shelf life of common pantry items."
+      ],
+      "responses": [
+        "Store perishable items in the refrigerator to extend their shelf life.",
+        "Use airtight containers to keep food fresh and prevent spoilage.",
+        "Pay attention to storage instructions on packaging for optimal freshness."
+      ]
+    },
+    {
+      "tag": "nutritional_advice",
+      "patterns": [
+        "Can you provide tips for maintaining a balanced diet?",
+        "Tell me about the nutritional benefits of certain foods.",
+        "Provide guidance on interpreting food labels for nutritional information."
+      ],
+      "responses": [
+        "Include a variety of fruits and vegetables in your daily diet.",
+        "Certain foods like salmon and nuts are rich in omega-3 fatty acids.",
+        "Check food labels for information on calories, fat, and vitamins."
+      ]
+    },
+    {
+      "tag": "cooking_safety",
+      "patterns": [
+        "What safety precautions should I take while cooking?",
+        "Tell me about safe temperatures for cooking different foods.",
+        "How can I avoid foodborne illnesses during meal preparation?"
+      ],
+      "responses": [
+        "Wash hands thoroughly before handling food to prevent contamination.",
+        "Cook meats to their recommended internal temperatures to ensure safety.",
+        "Avoid cross-contamination by using separate cutting boards for raw and cooked foods."
+      ]
+    },
+    {
+      "tag": "product_recall_information",
+      "patterns": [
+        "How can I check if a food product has been recalled?",
+        "Tell me about recent food recalls and their reasons.",
+        "Provide guidance on handling recalled products."
+      ],
+      "responses": [
+        "Check the official recall website or contact the manufacturer for product recalls.",
+        "Recent recalls may be announced in the news or on the product's official website.",
+        "If you suspect a product has been recalled, discontinue use and follow the provided instructions."
+      ]
+    },
+    {
+      "tag": "food_industry_news",
+      "patterns": [
+        "What's the latest news in the food industry?",
+        "Can you share insights into current food trends?",
+        "Tell me about recent advancements in food safety technology."
+      ],
+      "responses": [
+        "Stay updated on food industry news through reputable news sources and publications.",
+        "Current food trends include plant-based diets and sustainable eating.",
+        "Advancements in food safety technology focus on improved testing methods and traceability."
+      ]
+    },
+    {
+      "tag": "environmental_impact",
+      "patterns": [
+        "How do different food choices impact the environment?",
+        "Tell me about sustainable food practices.",
+        "Provide tips for making eco-friendly food choices."
+      ],
+      "responses": [
+        "Consider the carbon footprint of food production and transportation.",
+        "Sustainable practices include choosing local and seasonal produce.",
+        "Reduce food waste by planning meals and utilizing leftovers."
+      ]
+    },
+    {
+      "tag": "food_scanning",
+      "patterns": [
+        "Ask about the product name and brand name",
+        "Ask the user to add a photo of ingredients",
+        "Ask the user to present results in which format (visual representation and detailed report)"
+      ],
+      "responses": [
+        "Sure! What is the name of the product you'd like to scan?",
+        "Great! Please provide the brand name of the product.",
+        "To proceed, could you upload a photo of the ingredients or text on the packaging?"
+      ]
+    },
+    {
+      "tag": "food_facts",
+      "patterns": [
+        "Tell me some food facts",
+        "Share interesting food information",
+        "Give me trivia about food"
+      ],
+      "responses": [
+        "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!",
+        "Broccoli is not a natural plant. It was cultivated by humans in the northern Mediterranean starting in about the 6th century BC.",
+        "Bananas are berries, but strawberries aren't. In botanical terms, a berry is a fruit produced from a single ovary, and bananas qualify, while strawberries do not."
+      ]
+    }
+    
+  ]
+}
